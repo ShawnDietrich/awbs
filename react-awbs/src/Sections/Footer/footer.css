@@ -63,4 +63,17 @@ p {
     font-family: 'Quattrocento sans';
     font-size: 12pt;;
   }
+
+  /* Media links */
+#socialMedia {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: fit-content;
+}
+#socialMedia .media img {
+  width: 4em;
+  margin: 1.5em 1em;
+}
+
   

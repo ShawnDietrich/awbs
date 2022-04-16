@@ -1,4 +1,7 @@
 import React from "react";
+import facebook from '../../pictures/facebook.png'
+import instagram from '../../pictures/instagram.png'
+import './footer.css'
 
 const Footer = () => {
   return (
@@ -30,12 +33,12 @@ const Footer = () => {
           <div id="socialMedia">
             <div class="media">
               <a href="https://www.instagram.com/ancientwisdombirth_doula/">
-                <img src="./Content/instagram.png" />
+                <img src={instagram} alt=''/>
               </a>
             </div>
             <div class="media">
               <a href="https://www.facebook.com/AncientWisdomBirth">
-                <img src="./Content/facebook.png" />
+                <img src={facebook} alt=''/>
               </a>
             </div>
           </div>

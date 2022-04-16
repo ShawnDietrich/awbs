@@ -1,5 +1,6 @@
 import React from "react";
 import './header.css'
+import logo from '../../pictures/VISTA.LOGO.png';
 
 //Header component function
 const Header = () => {
@@ -7,7 +8,7 @@ const Header = () => {
     <div>
       <div class="logoBlock">
         <img
-          src="../../Public/Pictures/VISTA.LOGO.png"
+          src={logo}
           alt="Ancient Wisdom Birth Services Logo"
         />
         <h1>Ancient Wisdom Birth Servies</h1>

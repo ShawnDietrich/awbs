@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Raleway:wght@200&family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+/* Font Senttings*/
+p {
+    font-family: 'Quattrocento sans';
+    font-size: 12pt;
+  }
+  
+  h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 30pt;
+    margin-left: 1em;
+  }
+  
+  h2{
+    font-family: 'RALEWAY' ;
+  }
+  
+  h3{
+    font-family: 'RALEWAY';
+  }
+
+  /*About Block */
+#about{
+    text-align: center;
+    display: block;
+    position: relative;
+    padding: 1em 0%;
+  }
+  #about::after{
+    content: '';
+    background-color: #d6c1ad;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+  #about h1{
+    text-align: left;
+  }
+  #about h3{
+    font-size: 20pt;
+  }
+  #about p {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 13pt;
+  }
+  #about .Name{
+    padding-bottom: 2em;
+    font-family: 'RALEWAY';
+    color: #894b60;
+    font-size: 18pt;
+  }
+  #about img{
+    width: 10%;
+    height: 10%;
+    margin-top: 1em;
+  }

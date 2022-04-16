@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Raleway:wght@200&family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+/* Font Senttings*/
+p {
+  font-family: 'Quattrocento sans';
+  font-size: 12pt;
+}
+
+h1{
+  font-family: 'Great Vibes', cursive;
+  font-size: 30pt;
+  margin-left: 1em;
+}
+
+h2{
+  font-family: 'RALEWAY' ;
+}
+
+h3{
+  font-family: 'RALEWAY';
+}
+
+/* Service Block */
+#services {
+    margin-top: 5em;
+    margin-bottom: 1em;
+    padding: 1em 0;
+    display: block;
+    position: relative;
+    background-color: #d6c1ad;
+  }
+  #services::after {
+    
+    content: '';
+    /*background-image: url(../Content/cover.pink.png);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+  #services .serviceText {
+    width: 60%;
+    margin: 0 auto; 
+  }
+  #services .service{
+    display: flex;
+    text-align: left;
+    color: #894b60;
+    font-size: 18pt;
+  }
+  #services .price{
+    margin-left: auto;
+  }
+  #services .includes{
+    font-weight: 100;
+    font-family: 'Quattrocento sans';
+    font-size: 18pt;
+  }
+  #services .serviceList, .serviceFooter{
+    font-family: 'Quattrocento sans';
+    font-size: 18pt;
+  }
