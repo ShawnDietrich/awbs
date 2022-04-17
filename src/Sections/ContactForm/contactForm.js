@@ -3,22 +3,36 @@ import "./contactForm.css";
 import { Link } from "react-router-dom";
 import contactImage from "../../pictures/teal.teacup.jpg";
 import emailjs from "@emailjs/browser";
-const serviceID = 'service_whc1zke';
-const templateID = 'template_zbl8m8g';
-const userID = 'TeUXPLxcH5kdiJWOr';
+const serviceID = "service_whc1zke";
+const templateID = "template_zbl8m8g";
+const giftTemplateID = "template_untp5bh";
+const userID = "TeUXPLxcH5kdiJWOr";
 
-const ContactForm = () => {
+const ContactForm = (props) => {
   const form = useRef();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm(serviceID, templateID, form.current, userID)
-    .then((result) => {
-      alert('Booking Received')
-      
-      console.log(result);
-    }, 
-    (error)=> {console.log(error);});
+    emailjs
+      .sendForm(
+        serviceID,
+        props.gift ? giftTemplateID : templateID,
+        form.current,
+        userID
+      )
+      .then(
+        (result) => {
+          props.gift
+            ? alert("Your Gift Certificate Request Has Been Received")
+            : alert("Booking Received");
+
+          console.log(result);
+        },
+        (error) => {
+          alert("Something went wrong please try again");
+          console.log(error);
+        }
+      );
   };
 
   return (
@@ -53,14 +67,16 @@ const ContactForm = () => {
               <input type="text" id="fCity" name="City" />
             </div>
           </div>
-          <div className="row">
-            <div className="colLbl">
-              <label htmlFor="fDue">Due Date:</label>
+          {!props.gift && (
+            <div className="row">
+              <div className="colLbl">
+                <label htmlFor="fDue">Due Date:</label>
+              </div>
+              <div className="colInput">
+                <input type="text" id="fDue" name="DueDate" />
+              </div>
             </div>
-            <div className="colInput">
-              <input type="text" id="fDue" name="DueDate" />
-            </div>
-          </div>
+          )}
           <div className="row">
             <div className="colLbl">
               <label htmlFor="fPhone">Phone Number:</label>
@@ -77,16 +93,18 @@ const ContactForm = () => {
               <input type="text" id="fEmail" name="Email" />
             </div>
           </div>
-          <div className="row">
-            <div className="colLbl">
-              <label htmlFor="fGift">
-                Gift Card Recipient (if applicable):
-              </label>
+          {props.gift && (
+            <div className="row">
+              <div className="colLbl">
+                <label htmlFor="fGift">
+                  Gift Card Recipient (if applicable):
+                </label>
+              </div>
+              <div className="colInput">
+                <input type="text" id="fGift" name="Gift" />
+              </div>
             </div>
-            <div className="colInput">
-              <input type="text" id="fGift" name="Gift" />
-            </div>
-          </div>
+          )}
           <div className="row">
             <div className="colInput buttons">
               <input type="submit" />

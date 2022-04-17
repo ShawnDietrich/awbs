@@ -4,7 +4,7 @@ import ContactForm from "../Sections/ContactForm/contactForm";
 const Contact = () => {
   return (
     <>
-      <ContactForm />
+      <ContactForm gift={false}/>
     </>
   );
 };

@@ -17,7 +17,7 @@ const BookNow = () => {
         </div>
         <div className="bookButtons">
           <Link to="/form">Book Now</Link>
-          <Link to="/form">Send a Gift Certificate</Link>
+          <Link to="/gift">Send a Gift Certificate</Link>
         </div>
       </div>
     </>
