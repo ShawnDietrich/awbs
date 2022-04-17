@@ -9,7 +9,6 @@ p {
   h1{
     font-family: 'Great Vibes', cursive;
     font-size: 30pt;
-    margin-left: 1em;
   }
   
   h2{
@@ -31,6 +30,7 @@ p {
   .logoBlock h1 {
     margin-top: 0.1em;
     margin-bottom: 0;
+    margin-left: 0;
   }
   .logoBlock img{
     margin-top: 1em;

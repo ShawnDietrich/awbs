@@ -20,7 +20,10 @@ h3{
   font-family: 'RALEWAY';
 }
 
-
+.bookNow img {
+  width: 50%;
+  border-radius: 1em;
+}
 
 .bookNow{
     text-align: center;

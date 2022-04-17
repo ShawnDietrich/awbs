@@ -33,6 +33,7 @@ h3 {
   margin: 5% auto;
   padding: 5% 10%;
   width: 50%;
+  min-width: 635px;
 }
 
 .colLbl {
@@ -51,10 +52,12 @@ input[type="text"] {
 
 .buttons {
   align-content: center;
-  padding-left: 7em;
+  padding-left: 4em;
+  display: block;
+  height: 72px;
 }
 .buttons a {
-  padding-left: 15em;
+  padding-left: 45%;
 }
 
 input[type="submit"] {
@@ -62,7 +65,7 @@ input[type="submit"] {
   background-color: #b77c7e;
   color: #d6c1ad;
   height: 3em;
-
+  min-width: 100px;
   border-radius: 0.5em;
   font-size: 18pt;
   font-family: "RALEWAY";
@@ -81,7 +84,7 @@ input[type="submit"]:hover {
   background-color: #b77c7e;
   color: #d6c1ad;
   height: 3em;
- 
+  min-width: 100px;
   border-radius: 0.5em;
   font-size: 18pt;
   font-family: "RALEWAY";

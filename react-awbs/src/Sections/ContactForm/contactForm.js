@@ -1,22 +1,38 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./contactForm.css";
 import { Link } from "react-router-dom";
-import contactImage from '../../pictures/teal.teacup.jpg'
+import contactImage from "../../pictures/teal.teacup.jpg";
+import { SendFormAPI } from "../../FormAPI/SendForm";
+import emailjs from "@emailjs/browser";
+const serviceID = 'service_5t2r77h';
+const templateID = 'template_untp5bh';
+const userID = 'TeUXPLxcH5kdiJWOr';
+
 const ContactForm = () => {
+  const form = useRef();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    emailjs.sendForm(serviceID, templateID, form.current, userID)
+    .then((result) => {
+      alert('Booking Received')
+      
+      console.log(result);
+    }, 
+    (error)=> {console.log(error);});
+  };
+
   return (
     <>
-    <div class="contactUsImage">
-          <img src={contactImage} alt="Let's Chat!"
-          width="50%"/>
-        </div>
+      <div className="contactUsImage">
+        <img src={contactImage} alt="Let's Chat!" width="50%" />
+      </div>
 
       <div className="consultForm">
-        <form
-          id="form"
-        >
+        <form id="form" ref={form} onSubmit={handleSubmit}>
           <div className="row">
             <div className="colLbl">
-              <label for="fName">Name:</label>
+              <label htmlFor="fName">Name:</label>
             </div>
             <div className="colInput">
               <input type="text" id="fName" name="Name" />
@@ -24,7 +40,7 @@ const ContactForm = () => {
           </div>
           <div className="row">
             <div className="colLbl">
-              <label for="fStreet">Street Address:</label>
+              <label htmlFor="fStreet">Street Address:</label>
             </div>
             <div className="colInput">
               <input type="text" id="fStreet" name="Street" />
@@ -32,7 +48,7 @@ const ContactForm = () => {
           </div>
           <div className="row">
             <div className="colLbl">
-              <label for="fCity">City:</label>
+              <label htmlFor="fCity">City:</label>
             </div>
             <div className="colInput">
               <input type="text" id="fCity" name="City" />
@@ -40,7 +56,7 @@ const ContactForm = () => {
           </div>
           <div className="row">
             <div className="colLbl">
-              <label for="fDue">Due Date:</label>
+              <label htmlFor="fDue">Due Date:</label>
             </div>
             <div className="colInput">
               <input type="text" id="fDue" name="DueDate" />
@@ -48,7 +64,7 @@ const ContactForm = () => {
           </div>
           <div className="row">
             <div className="colLbl">
-              <label for="fPhone">Phone Number:</label>
+              <label htmlFor="fPhone">Phone Number:</label>
             </div>
             <div className="colInput">
               <input type="text" id="fPhone" name="Phone" />
@@ -56,7 +72,7 @@ const ContactForm = () => {
           </div>
           <div className="row">
             <div className="colLbl">
-              <label for="fEmail">E-mail:</label>
+              <label htmlFor="fEmail">E-mail:</label>
             </div>
             <div className="colInput">
               <input type="text" id="fEmail" name="Email" />
@@ -64,7 +80,9 @@ const ContactForm = () => {
           </div>
           <div className="row">
             <div className="colLbl">
-              <label for="fGift">Gift Card Recipient (if applicable):</label>
+              <label htmlFor="fGift">
+                Gift Card Recipient (if applicable):
+              </label>
             </div>
             <div className="colInput">
               <input type="text" id="fGift" name="Gift" />
