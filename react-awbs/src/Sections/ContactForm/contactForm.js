@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import contactImage from "../../pictures/teal.teacup.jpg";
 import { SendFormAPI } from "../../FormAPI/SendForm";
 import emailjs from "@emailjs/browser";
-const serviceID = 'service_5t2r77h';
-const templateID = 'template_untp5bh';
+const serviceID = 'service_whc1zke';
+const templateID = 'template_zbl8m8g';
 const userID = 'TeUXPLxcH5kdiJWOr';
 
 const ContactForm = () => {
