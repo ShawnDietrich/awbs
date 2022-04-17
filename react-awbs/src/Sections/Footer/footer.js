@@ -7,15 +7,15 @@ const Footer = () => {
   return (
     <>
       <div id="contactUs">
-        <div class="contactTitle">
+        <div className="contactTitle">
           <h1>Connect With Us</h1>
         </div>
-        <div class="contactText">
-          <div class="location">
+        <div className="contactText">
+          <div className="location">
             <h2>Located In Milton, Ontario</h2>
           </div>
 
-          <div class="information">
+          <div className="information">
             <p>
               We service most areas within a 1hr radius, including Oakville,
               Burlington, Georgetown, Acton, Mississauga, West Toronto, Vaughn,
@@ -23,7 +23,7 @@ const Footer = () => {
             </p>
           </div>
 
-          <div class="email">
+          <div className="email">
             <p>Email:</p>
             <a href="mailto:ancientwisdombirth@gmail.com">
               ancientwisdombirth@gmail.com
@@ -31,12 +31,12 @@ const Footer = () => {
           </div>
 
           <div id="socialMedia">
-            <div class="media">
+            <div className="media">
               <a href="https://www.instagram.com/ancientwisdombirth_doula/">
                 <img src={instagram} alt=''/>
               </a>
             </div>
-            <div class="media">
+            <div className="media">
               <a href="https://www.facebook.com/AncientWisdomBirth">
                 <img src={facebook} alt=''/>
               </a>

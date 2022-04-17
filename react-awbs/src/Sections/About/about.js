@@ -9,11 +9,11 @@ const About = () => {
          {/*<!--About Section-->*/}
       <div id="about">
         {/* <!--Title-->*/}
-        <div class="aboutTitle">
+        <div className="aboutTitle">
           <h1>About</h1>
         </div>
         {/*<!--Name section-->*/}
-        <div class="Name">
+        <div className="Name">
           <h3>LAURIE DIETRICH, BIRTH DOULA</h3>
         </div>
         {/*<!--About content-->*/}

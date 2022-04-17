@@ -6,10 +6,10 @@ const Mission = () => {
     <>
       {/*<!--What we do section-->*/}
       <div id="purpose">
-        <div class="quote"></div>
+        <div className="quote"></div>
         {/*<!--Title-->*/}
         <h1>What Do Doulas Do?</h1>
-        <div class="purposeText">
+        <div className="purposeText">
           {/*purpose 1 */}
           <h3>PHYSICAL SUPPORT</h3>
           <p>

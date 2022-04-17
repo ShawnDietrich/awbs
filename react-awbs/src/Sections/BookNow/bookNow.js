@@ -1,22 +1,23 @@
 import React from "react";
 import doulaPic from "../../pictures/Let_s.Doula.This.png";
 import './bookNow.css';
+import { Link } from "react-router-dom";
 
 const BookNow = () => {
   return (
     <>
-      <div class="bookNow">
+      <div className="bookNow">
         {/*<!--Title-->*/}
-        <div class="reviewTitle">
+        <div className="reviewTitle">
           <h1>Book Now</h1>
         </div>
         <img src={doulaPic} alt="Let's Doula this!!" />
-        <div class="bookTitle">
+        <div className="bookTitle">
           <h2>Free 30min consultation to see if we'd make a great team</h2>
         </div>
-        <div class="bookButtons">
-          <a href="./form.html">Book Now</a>
-          <a href="./form.html">Send a Gift Certificate</a>
+        <div className="bookButtons">
+          <Link to="/form">Book Now</Link>
+          <Link to="/form">Send a Gift Certificate</Link>
         </div>
       </div>
     </>

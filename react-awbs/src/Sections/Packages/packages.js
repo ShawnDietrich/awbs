@@ -11,15 +11,15 @@ const Packages = () => {
       <div id="services">
         {/* Title */}
         <h1>The Doula Experience Includes</h1>
-        <div class="serviceText">
+        <div className="serviceText">
           {/* Service and cost */}
-          <div class="service">
+          <div className="service">
             <h3>ANCIENT WISDOM BIRTH PACKAGE</h3>
-            <h3 class="price">$1200</h3>
+            <h3 className="price">$1200</h3>
           </div>
           {/* Service List */}
-          <h3 class="includes">Includes:</h3>
-          <div class="serviceList">
+          <h3 className="includes">Includes:</h3>
+          <div className="serviceList">
             <ul>
               <li>2 prenatal visits (details provided in Welcome Package)</li>
               <li>Mother Blessing Ceremony facilitation</li>
@@ -36,11 +36,11 @@ const Packages = () => {
               </li>
             </ul>
           </div>
-          <div class="service">
+          <div className="service">
             <h3>BIRTH POOL RENTAL (for clients only)</h3>
-            <h3 class="price">$100</h3>
+            <h3 className="price">$100</h3>
           </div>
-          <div class="serviceList">
+          <div className="serviceList">
             <ul>
               <li>Made In Water birth pool </li>
               <li>Includes liner</li>
@@ -50,7 +50,7 @@ const Packages = () => {
               </li>
             </ul>
           </div>
-          <div class="serviceFooter">
+          <div className="serviceFooter">
             <p>
               Postpartum services are available at the cost of $40/hr with a
               minimum of 4 consecutive hours per booking.

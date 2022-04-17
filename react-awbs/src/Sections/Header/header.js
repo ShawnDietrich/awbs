@@ -6,7 +6,7 @@ import logo from '../../pictures/VISTA.LOGO.png';
 const Header = () => {
   return (
     <div>
-      <div class="logoBlock">
+      <div className="logoBlock">
         <img
           src={logo}
           alt="Ancient Wisdom Birth Services Logo"
@@ -14,7 +14,7 @@ const Header = () => {
         <h1>Ancient Wisdom Birth Servies</h1>
       </div>
 
-      <div class="mottoBlock">
+      <div className="mottoBlock">
         <h2>REBUILDING THE VILLAGE</h2>
       </div>
     </div>
