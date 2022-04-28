@@ -1,39 +1,51 @@
-import React, { useRef } from "react";
-import "./contactForm.css";
-import { Link } from "react-router-dom";
-import contactImage from "../../pictures/teal.teacup.jpg";
-import emailjs from "@emailjs/browser";
-const serviceID = "service_whc1zke";
-const templateID = "template_zbl8m8g";
-const giftTemplateID = "template_untp5bh";
-const userID = "TeUXPLxcH5kdiJWOr";
+import React, { useEffect, useRef } from 'react'
+import './contactForm.css'
+import { Link } from 'react-router-dom'
+import contactImage from '../../pictures/teal.teacup.jpg'
+import emailjs from '@emailjs/browser'
+const serviceID = 'service_whc1zke'
+const templateID = 'template_zbl8m8g'
+const giftTemplateID = 'template_untp5bh'
+const userID = 'TeUXPLxcH5kdiJWOr'
 
 const ContactForm = (props) => {
-  const form = useRef();
+  const form = useRef()
+
+
+  useEffect(() => {
+    windowScroll();
+  }, [])
+
+  const windowScroll = () => {
+    window.scrollTo({
+      top: 1500,
+      behavior: 'smooth',
+    })
+  }
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    e.preventDefault()
     emailjs
       .sendForm(
         serviceID,
         props.gift ? giftTemplateID : templateID,
         form.current,
-        userID
+        userID,
       )
       .then(
         (result) => {
           props.gift
-            ? alert("Your Gift Certificate Request Has Been Received")
-            : alert("Booking Received");
+            ? alert('Your Gift Certificate Request Has Been Received')
+            : alert('Booking Received')
 
-          console.log(result);
+          console.log(result)
         },
         (error) => {
-          alert("Something went wrong please try again");
-          console.log(error);
-        }
-      );
-  };
+          alert('Something went wrong please try again')
+          console.log(error)
+        },
+      )
+  }
 
   return (
     <>
@@ -108,7 +120,7 @@ const ContactForm = (props) => {
           <div className="row">
             <div className="colInput buttons">
               <input type="submit" />
-              <Link to={"/"}>
+              <Link to={'/'}>
                 <button type="button" className="backButton">
                   Back
                 </button>
@@ -119,7 +131,7 @@ const ContactForm = (props) => {
         <div className="backInput"></div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default ContactForm;
+export default ContactForm

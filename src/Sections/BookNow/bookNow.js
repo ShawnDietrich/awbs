@@ -2,6 +2,7 @@ import React from "react";
 import doulaPic from "../../pictures/Let_s.Doula.This.png";
 import './bookNow.css';
 import { Link } from "react-router-dom";
+import {Link as scrollLink, animateScroll as scroll} from "react-scroll"
 
 const BookNow = () => {
   return (
@@ -16,7 +17,7 @@ const BookNow = () => {
           <h2>Free 30min consultation to see if we'd make a great team</h2>
         </div>
         <div className="bookButtons">
-          <Link to="/form">Book Now</Link>
+          <Link to="/form">Book Now <scrollLink></scrollLink></Link>
           <Link to="/gift">Send a Gift Certificate</Link>
         </div>
       </div>
