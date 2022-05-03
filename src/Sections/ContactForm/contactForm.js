@@ -3,10 +3,13 @@ import './contactForm.css'
 import { Link } from 'react-router-dom'
 import contactImage from '../../pictures/teal.teacup.jpg'
 import emailjs from '@emailjs/browser'
-const serviceID = 'service_whc1zke'
-const templateID = 'template_zbl8m8g'
-const giftTemplateID = 'template_untp5bh'
-const userID = 'TeUXPLxcH5kdiJWOr'
+import dotenv from 'dotenv';
+dotenv.config();
+
+const serviceID = process.env.SERVICE_ID;//'service_whc1zke'
+const templateID = process.env.TEMPLATE_ID; //'template_zbl8m8g'
+const giftTemplateID = process.env.GIFT_TEMPLATE; //'template_untp5bh'
+const userID = process.env.USER_ID //'TeUXPLxcH5kdiJWOr'
 
 const ContactForm = (props) => {
   const form = useRef()
