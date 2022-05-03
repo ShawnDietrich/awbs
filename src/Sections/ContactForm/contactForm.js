@@ -6,10 +6,10 @@ import emailjs from '@emailjs/browser'
 import dotenv from 'dotenv';
 dotenv.config();
 
-const serviceID = process.env.SERVICE_ID;//'service_whc1zke'
-const templateID = process.env.TEMPLATE_ID; //'template_zbl8m8g'
-const giftTemplateID = process.env.GIFT_TEMPLATE; //'template_untp5bh'
-const userID = process.env.USER_ID //'TeUXPLxcH5kdiJWOr'
+const serviceID = process.env.SERVICE_ID;
+const templateID = process.env.TEMPLATE_ID; 
+const giftTemplateID = process.env.GIFT_TEMPLATE; 
+const userID = process.env.USER_ID;
 
 const ContactForm = (props) => {
   const form = useRef()
