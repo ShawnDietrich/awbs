@@ -1,6 +1,7 @@
 {
   "short_name": "AWBS App",
   "name": "Ancient Wisdom Birth Services",
+  "description": "Rebuilding The Village",
   "icons": [
     {
       "src": "AWBS.ico",
@@ -8,18 +9,13 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "AWBS_pic.png",
       "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "252x256"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#b77c7e",
+  "background_color": "#d6c1ad"
 }
