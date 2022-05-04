@@ -3,20 +3,19 @@ import './contactForm.css'
 import { Link } from 'react-router-dom'
 import contactImage from '../../pictures/teal.teacup.jpg'
 import emailjs from '@emailjs/browser'
-import dotenv from 'dotenv';
-dotenv.config();
+import dotenv from 'dotenv'
+dotenv.config()
 
-const serviceID = process.env.SERVICE_ID;
-const templateID = process.env.TEMPLATE_ID; 
-const giftTemplateID = process.env.GIFT_TEMPLATE; 
-const userID = process.env.USER_ID;
+const serviceID = process.env.REACT_APP_SERVICE_ID
+const templateID = process.env.REACT_APP_TEMPLATE_ID
+const giftTemplateID = process.env.REACT_APP_GIFT_TEMPLATE
+const userID = process.env.REACT_APP_USER_ID
 
 const ContactForm = (props) => {
   const form = useRef()
 
-
   useEffect(() => {
-    windowScroll();
+    windowScroll()
   }, [])
 
   const windowScroll = () => {
@@ -28,6 +27,10 @@ const ContactForm = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
+    console.log(serviceID)
+    console.log(giftTemplateID)
+    console.log(userID)
+    console.log(templateID)
     emailjs
       .sendForm(
         serviceID,
