@@ -27,10 +27,6 @@ const ContactForm = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    console.log(serviceID)
-    console.log(giftTemplateID)
-    console.log(userID)
-    console.log(templateID)
     emailjs
       .sendForm(
         serviceID,
