@@ -11,7 +11,7 @@ const Header = () => {
           src={logo}
           alt="Ancient Wisdom Birth Services Logo"
         />
-        <h1>Ancient Wisdom Birth Servies</h1>
+        <h1>Ancient Wisdom Birth Services</h1>
       </div>
 
       <div className="mottoBlock">
