@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Raleway:wght@200&family=Rochester&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
 /* Font Senttings*/
 p {
     font-family: 'Quattrocento sans';
@@ -10,6 +11,7 @@ p {
     font-family: 'Great Vibes', cursive;
     font-size: 30pt;
     margin-left: 1em;
+    color: #848085;
   }
   
   h2{
