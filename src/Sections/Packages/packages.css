@@ -20,6 +20,8 @@ h3{
   font-family: 'RALEWAY';
 }
 
+
+
 /* Service Block */
 #services {
     margin-top: 5em;
@@ -27,7 +29,7 @@ h3{
     padding: 1em 0;
     display: block;
     position: relative;
-    background-color: #d6c1ad;
+    background-color: white;
   }
   #services::after {
     

@@ -107,6 +107,14 @@ const ContactForm = (props) => {
               <input type="text" id="fEmail" name="Email" />
             </div>
           </div>
+          <div className="row">
+            <div className="colLbl">
+              <label htmlFor="fHearAbout">How did you hear about me? (Google search, referral, market)</label>
+            </div>
+            <div className="colInput">
+              <input type="text" id="fHearAbout" name="HearAbout" />
+            </div>
+          </div>
           {props.gift && (
             <div className="row">
               <div className="colLbl">
