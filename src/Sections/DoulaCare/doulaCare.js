@@ -8,12 +8,12 @@ const DoulaCare = () => {
   return (
     <div className="pictures">
         <div className='picture'>
-            <img src={giftCertPic} alt="gift pic" />
+            <img src={giftCertPic} alt="gift pic"/>
             <h2>Gift Cards Available</h2>
             <p>Let Family and Friends, even from afar, help get you the support you need!</p>
         </div>
         <div className='picture'>
-            <img src={registeryPic} alt="registery pic"  />
+            <img src={registeryPic} alt="registery pic"/>
             <h2>Be Her Village Registery</h2>
             <p>Available at Behervillage.com (registry seervice for suport not stuff)</p>
         </div>

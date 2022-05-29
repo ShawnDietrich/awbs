@@ -23,7 +23,6 @@ const Packages = () => {
               <li>Mother Blessing Facilitation</li>
               <li>On-call at 38 weeks</li>
               <li>Labour and Birth support</li>
-              <li>Postpartum follow-up visit</li>
               <li>
                 1 postnatal visit, including basic breastfeeding support,
                 babywearing consult, cloth diaper and elimination communication
