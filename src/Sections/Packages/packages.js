@@ -12,7 +12,7 @@ const Packages = () => {
           {/* Service and cost */}
           <div className="service">
             <h3>ANCIENT WISDOM BIRTH PACKAGE</h3>
-            <h3 className="price">$1,200</h3>
+            <h3 className="price">$1,500</h3>
           </div>
           {/* Service List */}
           <h3 className="includes">Includes:</h3>
