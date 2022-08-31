@@ -21,7 +21,7 @@ const Packages = () => {
               <li>Two prenatal visits (details in Welcome Package)</li>
               <li>Ongoing telephone and e-mail support throughout pregnancy</li>
               <li>Mother Blessing Facilitation</li>
-              <li>On-call at 38 weeks</li>
+              <li>On-call at 36 weeks</li>
               <li>Labour and Birth support</li>
               <li>
                 1 postnatal visit, including basic breastfeeding support,

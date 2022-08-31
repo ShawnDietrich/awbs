@@ -3,9 +3,9 @@ import './reviews.css'
 const Reviews = () => {
 
 
-    return (
-        <>
-         {/*<!--Reviews-->*/}
+  return (
+    <>
+      {/*<!--Reviews-->*/}
       <div id="reviews">
         {/*<!--Title-->*/}
         <div className="reviewTitle">
@@ -19,6 +19,7 @@ const Reviews = () => {
               calming and friendly presence th..."
             </p>
             <br />
+            <br />
             <a href="https://doulamatch.net/profile/27858/laurie-dietrich">
               Read Full Review
             </a>
@@ -26,6 +27,14 @@ const Reviews = () => {
           </div>
 
           {/*<!--Add More reviews here -->*/}
+          <div className="review">
+            <h3>Above and Beyond</h3>
+            <p>"Laurie went above and beyond with prenatal, birth and postpartum care. My labor didn’t go as planned but thanks to Laurie’s guidance, we managed to deliver a beautiful baby naturally"</p>
+
+            <a href="https://doulamatch.net/profile/27858/laurie-dietrich">Read Full Review</a>
+            <p className="name">Lenka - 2022-08-25</p>
+          </div>
+
 
           <div className="review">
             <h3>Your Review Comming Soon</h3>
@@ -38,8 +47,8 @@ const Reviews = () => {
           </div>
         </div>
       </div>
-        </>
-    )
+    </>
+  )
 };
 
 export default Reviews;

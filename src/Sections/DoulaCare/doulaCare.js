@@ -20,7 +20,7 @@ const DoulaCare = () => {
         <div className='picture'>
             <img src={paymentPic} alt= "payment pic"/>
             <h2>Flexible Payment Plans</h2>
-            <p>That works out to b $133 per month of your pregancy. Payment plans available</p>
+            <p>That works out to be $133 per month of your pregancy. Payment plans available</p>
         </div>
       
       

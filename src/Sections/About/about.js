@@ -1,5 +1,5 @@
 import React from "react";
-import headShot from '../../pictures/287.JPG';
+import headShot from '../../pictures/lauriejeansstairs.jpg';
 import './about.css';
 
 const About = () => {
@@ -17,6 +17,7 @@ const About = () => {
           <h3>LAURIE DIETRICH, BIRTH DOULA</h3>
         </div>
         {/*<!--About content-->*/}
+        
         <p>
           I have been eager to work in the birth field for many years. Now, as
           my children grow, and we've reached a point where the world won't fall
