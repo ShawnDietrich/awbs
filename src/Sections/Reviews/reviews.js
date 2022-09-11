@@ -1,5 +1,6 @@
 import React from "react";
 import './reviews.css'
+
 const Reviews = () => {
 
 
@@ -35,16 +36,17 @@ const Reviews = () => {
             <p className="name">Lenka - 2022-08-25</p>
           </div>
 
-
           <div className="review">
-            <h3>Your Review Comming Soon</h3>
-            <p>"Your review here"</p>
-            <br />
-            <br />
-            <br />
+            <h3>Knowledgeable</h3>
+            <p>"Laurie is knowledgeable, caring, and supportive. She eased my anxieties about childbirth by directing me to evidence-based research and knowledge... </p>
+            <br/>
             <a href="https://doulamatch.net/profile/27858/laurie-dietrich">Read Full Review</a>
-            <p className="name"> 2022</p>
+            <p className="name">Dorothy - 2022-09-06</p>
           </div>
+
+
+          
+          
         </div>
       </div>
     </>

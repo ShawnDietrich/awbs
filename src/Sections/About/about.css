@@ -63,3 +63,6 @@ p {
     margin-top: 1em;
     border-radius: 1em;
   }
+  .aboutSection {
+    text-align: left;
+  }
