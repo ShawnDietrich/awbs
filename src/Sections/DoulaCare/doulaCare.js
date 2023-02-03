@@ -15,7 +15,7 @@ const DoulaCare = () => {
         <div className='picture'>
             <img src={registeryPic} alt="registery pic"/>
             <h2>Be Her Village Registery</h2>
-            <p>Available at Behervillage.com (registry seervice for suport not stuff)</p>
+            <p>Available at Behervillage.com (registry service for support not stuff)</p>
         </div>
         <div className='picture'>
             <img src={paymentPic} alt= "payment pic"/>

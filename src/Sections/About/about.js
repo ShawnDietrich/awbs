@@ -33,7 +33,7 @@ const About = () => {
             I always know my kids are in good hands so I can give 100% of myself to mothering the mother on her big day.</p>
           <br />
           <p>I enjoy being able to support my community outside of “the system” and share what knowledge I have learned (and most importantly, what I have unlearned)
-            over my 17 year parenting journey while at the same time, supporting clients by respecting their unique choices and stepping back to let their  journeys unfold as they will</p>
+            over my 17 year parenting journey while at the same time, supporting clients by respecting their unique choices and stepping back to let their journeys unfold as they will.</p>
           <br />
           <p>
             I trained with Stephanie Antunes of Discover Birth.
