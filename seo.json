@@ -1,0 +1,28 @@
+{
+    "title": "Ancient Wisdom Birth Services",
+    "description": "Rebuilding The Village",
+    "keywords": "Birth Doula Oakville",
+    "author": "Example Author",
+    "openGraph": {
+        "url": "https://ancientwisdombirth.ca/",
+        "title": "Specializing in natural homebirth with midwife / midwives. Birth companion. Aspiring Traditional Birth Attendant and sovereign birth worker in Burlington, Oakville, Hamilton & Milton",
+        "description": "Birth Doula based in Milton, servicing Oakville, Burlington, Halton Hills, Georgetown, Mississauga, Guelph and surrounding areas. Doulas walk alongside you on your pregnancy journey, providing physical and emotional support, and help navigating information and the postpartum fourth trimester",
+        "image": "%PUBLIC_URL%/AWBS.ico",
+        "site_name": "Ancient Wisdom Birth Doula",
+        "type": "website",
+        "locale": "it_IT"
+    },
+    "favicon": null,
+    "manifest": null,
+    "icons": [{
+            "src": "%PUBLIC_URL%/AWBS.ico",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "%PUBLIC_URL%/AWBS_pic.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
