@@ -11,7 +11,7 @@ const Mission = () => {
         <h1>What Do Doulas Do?</h1>
         <div className="purposeText">
           {/*purpose 1 */}
-          <h3>PHYSICAL SUPPORT</h3>
+          <h2>PHYSICAL SUPPORT</h2>
           <p>
             As a birth doula, I offer women physical support throughout their
             pregnancy, labour and birth, and into early postpartum.
@@ -24,7 +24,7 @@ const Mission = () => {
             woman is created and maintained.
           </p>
           {/*purpose 2 */}
-          <h3>EMOTIONAL SUPPORT</h3>
+          <h2>EMOTIONAL SUPPORT</h2>
           <p>
             The adventurous journey from pregnancy to parenting can be a wild
             ride!
@@ -36,7 +36,7 @@ const Mission = () => {
             path through the specific challenges of your journey.
           </p>
           {/* purpose 3 */}
-          <h3>INFORMATION AND ADVOCACY</h3>
+          <h2>INFORMATION AND ADVOCACY</h2>
           <p>
             With so much information out there, I help you find evidence-based
             information that sits well with your soul. As much as there is to

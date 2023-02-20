@@ -14,7 +14,7 @@ const Reviews = () => {
         </div>
         <div className="reviewBlocks">
           <div className="review">
-            <h3>Prepared and Supported</h3>
+            <h2>Prepared and Supported</h2>
             <p>
               "When we met Laurie it was an instant connection. She had a very
               calming and friendly presence th..."
@@ -29,7 +29,7 @@ const Reviews = () => {
 
           {/*<!--Add More reviews here -->*/}
           <div className="review">
-            <h3>Above and Beyond</h3>
+            <h2>Above and Beyond</h2>
             <p>"Laurie went above and beyond with prenatal, birth and postpartum care. My labor didn’t go as planned but thanks to Laurie’s guidance, we managed to deliver a beautiful baby naturally"</p>
 
             <a href="https://doulamatch.net/profile/27858/laurie-dietrich">Read Full Review</a>
@@ -37,7 +37,7 @@ const Reviews = () => {
           </div>
 
           <div className="review">
-            <h3>Knowledgeable</h3>
+            <h2>Knowledgeable</h2>
             <p>"Laurie is knowledgeable, caring, and supportive. She eased my anxieties about childbirth by directing me to evidence-based research and knowledge... </p>
             <br/>
             <a href="https://doulamatch.net/profile/27858/laurie-dietrich">Read Full Review</a>

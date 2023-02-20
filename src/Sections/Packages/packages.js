@@ -11,11 +11,11 @@ const Packages = () => {
         <div className="serviceText">
           {/* Service and cost */}
           <div className="service">
-            <h3>ANCIENT WISDOM BIRTH PACKAGE</h3>
-            <h3 className="price">$1,500</h3>
+            <h2>ANCIENT WISDOM BIRTH PACKAGE</h2>
+            <h2 className="price">$1,500</h2>
           </div>
           {/* Service List */}
-          <h3 className="includes">Includes:</h3>
+          <h2 className="includes">Includes:</h2>
           <div className="serviceList">
             <ul>
               <li>Two prenatal visits (details in Welcome Package)</li>
@@ -31,8 +31,8 @@ const Packages = () => {
             </ul>
           </div>
           <div className="service">
-            <h3>BIRTH POOL RENTAL (for clients only)</h3>
-            <h3 className="price">$200</h3>
+            <h2>BIRTH POOL RENTAL (for clients only)</h2>
+            <h2 className="price">$200</h2>
           </div>
           <div className="serviceList">
             <ul>
@@ -45,7 +45,7 @@ const Packages = () => {
             </ul>
           </div>
           <div className="service">
-            <h3>POSTPARTUM CARE</h3>
+            <h2>POSTPARTUM CARE</h2>
           </div>
           <div className="serviceList">
             <ul>

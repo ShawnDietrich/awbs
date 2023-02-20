@@ -14,7 +14,7 @@ const About = () => {
         </div>
         {/*<!--Name section-->*/}
         <div className="Name">
-          <h3>LAURIE DIETRICH, BIRTH DOULA</h3>
+          <h2>LAURIE DIETRICH, BIRTH DOULA</h2>
         </div>
         {/*<!--About content-->*/}
 
