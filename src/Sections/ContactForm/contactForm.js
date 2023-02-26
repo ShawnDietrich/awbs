@@ -107,9 +107,21 @@ const ContactForm = (props) => {
               <input type="text" id="fEmail" name="Email" />
             </div>
           </div>
+          <div className='row'>
+          <label htmlFor='fCareProvider'>Current care provider (O.B., Midwife, TBA, Self):</label>
+          <div className="colInput"> 
+              <input type="text" id="fCareProvider" name="CareProvider"/>
+            </div>
+          </div>
+          <div className='row'>
+          <label htmlFor='fIntendedPlaceBirth'>Intended place of birth:</label>
+          <div className="colInput"> 
+              <input type="text" id="fIntendedPlaceBirth" name="BrithPlace"/>
+            </div>
+          </div>
           <div className="row">
             <div className="colLbl">
-              <label htmlFor="fHearAbout">How did you hear about me? (Google search, referral, market)</label>
+              <label htmlFor="fHearAbout">How did you hear about me? (Google search, referral, market):</label>
             </div>
             <div className="colInput">
               <input type="text" id="fHearAbout" name="HearAbout" />
