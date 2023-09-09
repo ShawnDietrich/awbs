@@ -44,9 +44,13 @@ const Reviews = () => {
             <p className="name">Dorothy - 2022-09-06</p>
           </div>
 
-
-          
-          
+           <div className="review">
+            <h2>Dream delivery</h2>
+            <p>"I’m thankful for her being there for me in ways I didn’t realize I needed. As a calming presence she eased my mind of the noise which allowed me to focus on my labour and ultimately my dream delivery of my last baby..."</p>
+            <br/>
+            <a href="https://doulamatch.net/profile/27858/laurie-dietrich">Read Full Review</a>
+            <p className="name">Ania  2023-08-04</p>
+          </div>
         </div>
       </div>
     </>
